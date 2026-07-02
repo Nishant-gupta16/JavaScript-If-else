@@ -76,41 +76,101 @@
 //     console.log(`${num3} is Big`)
 // }
 
-let num1=432;
-let num2=442;
-let num3=44;
+// let num1=432;
+// let num2=442;
+// let num3=44;
 
-if (num1>num2 && num1>num3){
-    console.log(`${num1} is Big`);
-    if(num2>num3){
-        console.log(`${num2} is Biger then ${num3} and smaller then ${num1}`);
-        console.log(`${num3} is small`)
-    }
-    else{
-         console.log(`${num3} is Biger then ${num2} and smaller then ${num1}`);
-         console.log(`${num2} is small`)  
-    }   
-}
-else if(num2>num1&& num2>num3){
-     console.log(`${num2} is Big`);
-    if(num3>num1){
-        console.log(`${num3} is Biger then ${num1} and smaller then ${num2}`);
-        console.log(`${num1} is small`)
-    }
-    else{
-         console.log(`${num1} is Biger then ${num3} and smaller then ${num2}`);
-         console.log(`${num3} is small`)
-    }
-}
-else if(num3>num1&& num3>num2){
-    console.log(`${num3} is Big.`);
-    if(num2>num1){
-        console.log(`${num2} is Biger then ${num1} and smaller then ${num3}`);
-        console.log(`${num1} is small`)
-    }
-    else{
-         console.log(`${num1} is Biger then ${num2} and smaller then ${num3}`);
-         console.log(`${num} is small`)
+// if (num1>num2 && num1>num3){
+//     console.log(`${num1} is Big`);
+//     if(num2>num3){
+//         console.log(`${num2} is Biger then ${num3} and smaller then ${num1}`);
+//         console.log(`${num3} is small`)
+//     }
+//     else{
+//          console.log(`${num3} is Biger then ${num2} and smaller then ${num1}`);
+//          console.log(`${num2} is small`)  
+//     }   
+// }
+// else if(num2>num1&& num2>num3){
+//      console.log(`${num2} is Big`);
+//     if(num3>num1){
+//         console.log(`${num3} is Biger then ${num1} and smaller then ${num2}`);
+//         console.log(`${num1} is small`)
+//     }
+//     else{
+//          console.log(`${num1} is Biger then ${num3} and smaller then ${num2}`);
+//          console.log(`${num3} is small`)
+//     }
+// }
+// else if(num3>num1&& num3>num2){
+//     console.log(`${num3} is Big.`);
+//     if(num2>num1){
+//         console.log(`${num2} is Biger then ${num1} and smaller then ${num3}`);
+//         console.log(`${num1} is small`)
+//     }
+//     else{
+//          console.log(`${num1} is Biger then ${num2} and smaller then ${num3}`);
+//          console.log(`${num} is small`)
        
-    }
-}
+//     }
+// }
+
+//  Q7.Check whether a number is divisible by 5.=====================
+
+//  let num=45;
+//  num%5==0 ? console.log(`${num} is divisible by 5`): console.log(`${num} is not divisible by 5`)
+
+
+//  Q8. Check whether a number is divisible by both 3 and 5.=========================
+
+// let num =1;
+// if (num%3==0 && num%5==0){
+//     console.log(`${num} is divisible by 3 and 5`)
+// }
+
+// else if (num%3==0){
+//     console.log(`${num} is divisible by 3.`)
+//     if (num%5==0){
+//         console.log(`${num} is divisible by 5.`)
+//     }
+//     else{
+//         console.log(`${num} is divisible by 3 but not divisible by 5. `)
+//     }
+// }
+
+// else if (num%5==0){
+//     console.log(`${num} is divisible by 5.`)
+//     if (num%3==0){
+//         console.log(`${num} is divisible by 3.`)
+//     }
+//     else{
+//         console.log(`${num} is divisible by 5 but not divisible by 3. `)
+//     }
+// }
+
+// else{
+//     console.log(`${num} is not divisible by both 3 and 5.`)
+// }
+
+// Q9.Check whether a character is a vowel or consonant.====================
+
+// let str = `I`;
+// str=str.toLowerCase();
+
+// if ((str === `a`)||(str===`e`)||(str===`i`)||(str===`o`)||(str===`u`)){
+//     console.log(`${str} is vowel`)
+// }
+// else{
+//     console.log(`${str} is consonant.`)
+// }
+
+//  Q10.Check whether a character is uppercase or lowercase.==================
+
+// let str=`N`;
+
+// if (str===str.toUpperCase()){
+//     console.log(`${str} is uppercase`)
+// }
+// else{
+//     console.log(`${str} is lovercase`)
+// }
